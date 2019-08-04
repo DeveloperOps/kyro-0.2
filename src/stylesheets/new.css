@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body-content-welcome {
+  border: 1px solid #adadad;
+  width: 70%;
+  background: #fff;
+  height: 105%;
+  position: absolute;
+  z-index: -1;
+  top: 13%;
+  left: 50%;
+  margin-left: calc(-35%);
+}
+
+.body-content-welcome h1 {
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+  position: relative;
+  width: 95%;
+  left: 50%;
+  margin-left: calc(-47.5%);
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.body-content-welcome .intro {
+  opacity: 0.6;
+  padding-top: 10px;
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.body-content-welcome .update-profile {
+  margin-top: 30px;
+}
+
+.body-content-welcome .update-profile .icon-edit {
+  margin-left: 10%;
+  width: 30px;
+  position: relative;
+}
+
+.body-content-welcome .update-profile h2 {
+  position: relative;
+  top: -7px;
+  left: 10px;
+  display: inline;
+}
+
+.body-content-welcome .update-profile .profile-image {
+  margin-top: 20px;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+.body-content-welcome .update-profile .profile-image img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.body-content-welcome .update-profile .profile-image input[type="file"] {
+  position: relative;
+  top: -40px;
+  border: 2px solid #4021d3;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.body-content-welcome .update-profile p {
+  margin-top: 20px;
+}
+
+.body-content-welcome .update-profile .username {
+  padding: 30px;
+}
+
+.body-content-welcome .update-profile .username input[type="text"] {
+  width: 30%;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid #4021d3;
+  border-radius: 50px;
+  outline: none;
+}
+
+.body-content-welcome .update-profile .username input[type="text"]:placeholder {
+  font-family: Raleway, sans-serif;
+}
+
+.body-content-welcome .update-profile button {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  background: #4021d3;
+  border: 1px solid #4021d3;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .body-content-welcome {
+    width: 100%;
+    height: 120%;
+    top: 60px;
+    margin-left: calc(-50%);
+  }
+  .body-content-welcome h1 {
+    font-size: 25px;
+  }
+  .body-content-welcome .intro {
+    font-size: 16px;
+  }
+  .body-content-welcome .update-profile {
+    margin-top: 20px;
+  }
+  .body-content-welcome .update-profile .profile-image {
+    padding-left: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
+  .body-content-welcome .update-profile .profile-image img {
+    width: 80px;
+    height: 80px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  .body-content-welcome .update-profile .profile-image input[type="file"] {
+    position: relative;
+    left: 0;
+    top: 20px;
+  }
+  .body-content-welcome .update-profile p {
+    margin-top: 30px;
+  }
+  .body-content-welcome .update-profile .username {
+    padding: 20px;
+  }
+  .body-content-welcome .update-profile .username input[type="text"] {
+    display: block;
+    position: relative;
+    left: 50%;
+    width: 70%;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: calc(-35%);
+  }
+  .body-content-welcome .update-profile button {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=new.css.map */

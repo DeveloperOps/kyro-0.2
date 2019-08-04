@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: "Raleway", sans-serif;
+}
+
+.login-body {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(-20%);
+  padding-top: 5%;
+}
+
+.login-body .login {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-body .login img {
+  position: relative;
+  width: 20%;
+  padding-top: 10%;
+  left: 50%;
+  margin-left: calc(-10%);
+}
+
+.login-body .login #throw-error {
+  display: none;
+  position: relative;
+  margin-top: 2%;
+  left: 50%;
+  margin-left: calc(-40%);
+  width: 80%;
+  height: 25px;
+  background: #ca0314;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-body .login #throw-error .invalid {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.login-body .login .form-log {
+  width: 100%;
+  padding: 5% 15%;
+}
+
+.login-body .login .form-log input[type="text"],
+.login-body .login .form-log input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 4%;
+  border: 2px solid #4021d3;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-body .login .form-log input[type="text"]:hover,
+.login-body .login .form-log input[type="password"]:hover {
+  border: 2px solid black;
+}
+
+.login-body .login .form-log button {
+  display: block;
+  position: relative;
+  width: 80px;
+  padding: 5px;
+  background: #4021d3;
+  border: 2px solid #4021d3;
+  border-radius: 50px;
+  color: #fff;
+  margin-left: 16px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.login-body .login .form-log .captcha {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.login-body .login .form-log input[type="text"]::-webkit-input-placeholder,
+.login-body .login .form-log input[type="password"]::-webkit-input-placeholder {
+  font-family: Raleway;
+}
+
+.login-body .login .form-log input[type="text"]:-ms-input-placeholder,
+.login-body .login .form-log input[type="password"]:-ms-input-placeholder {
+  font-family: Raleway;
+}
+
+.login-body .login .form-log input[type="text"]::-ms-input-placeholder,
+.login-body .login .form-log input[type="password"]::-ms-input-placeholder {
+  font-family: Raleway;
+}
+
+.login-body .login .form-log input[type="text"]::placeholder,
+.login-body .login .form-log input[type="password"]::placeholder {
+  font-family: Raleway;
+}
+
+.login-body .login .form-log input[type="checkbox"] {
+  display: inline;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
+
+.login-body .login .form-log label {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+  justify-self: flex-start;
+}
+
+.login-body .login .form-log .remember {
+  width: 50%;
+  position: relative;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.login-body .login .opt {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 50%;
+  margin-left: calc(-50%);
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.login-body .login .google {
+  position: relative;
+  width: 100%;
+}
+
+.login-body .login .google img {
+  display: inline;
+  width: 36px;
+  padding: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-body .login .forgot {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  width: 50%;
+  left: 50%;
+  margin-left: calc(-15%);
+  opacity: 0.6;
+}
+
+.login-body .login .createone {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 14px;
+}
+
+.login-body .login .createone a {
+  color: blue;
+}
+
+.login-body .login::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: -10px;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#4021d3), color-stop(#a400a4), color-stop(#ca0070), color-stop(#d30041), to(#ca0314));
+  background-image: linear-gradient(to left bottom, #4021d3, #a400a4, #ca0070, #d30041, #ca0314);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .login-body {
+    width: 90%;
+    margin-left: calc(-45%);
+    padding-top: 15%;
+  }
+  .login-body .login img {
+    width: 25%;
+    margin-left: calc(-12.5%);
+  }
+  .login-body .login form {
+    padding: 5% 10%;
+  }
+  .login-body .login .google img {
+    width: 30px;
+  }
+  .login-body .login .forgot {
+    margin-left: calc(-45%);
+  }
+}
+/*# sourceMappingURL=loginsign.css.map */
