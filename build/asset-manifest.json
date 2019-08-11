@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2a33b7d.chunk.css",
+    "main.js": "/static/js/main.2becdd1a.chunk.js",
+    "main.js.map": "/static/js/main.2becdd1a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.43c11976.chunk.js": "/static/js/2.43c11976.chunk.js",
+    "static/js/2.43c11976.chunk.js.map": "/static/js/2.43c11976.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4f9ec28b638d7f2989dd9d4186d11922.js": "/precache-manifest.4f9ec28b638d7f2989dd9d4186d11922.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c2a33b7d.chunk.css.map": "/static/css/main.c2a33b7d.chunk.css.map",
+    "static/media/baseline-comment-24px.svg": "/static/media/baseline-comment-24px.f8f0a8ca.svg",
+    "static/media/baseline-favorite-24px.svg": "/static/media/baseline-favorite-24px.4c67d875.svg",
+    "static/media/baseline-mic-24px.svg": "/static/media/baseline-mic-24px.c787772c.svg",
+    "static/media/baseline-more_horiz-24px.svg": "/static/media/baseline-more_horiz-24px.c8383263.svg",
+    "static/media/baseline-more_vert-24px.svg": "/static/media/baseline-more_vert-24px.3dc9c6f2.svg",
+    "static/media/baseline-perm_identity-24px.svg": "/static/media/baseline-perm_identity-24px.b6bae80a.svg",
+    "static/media/theme.css": "/static/media/bg_s.0ca6db97.png",
+    "static/media/iconfinder_user-2_430127.svg": "/static/media/iconfinder_user-2_430127.d4f6e353.svg",
+    "static/media/iconfinder_user_profile_edit_103781.svg": "/static/media/iconfinder_user_profile_edit_103781.c08fd9bf.svg",
+    "static/media/logo.png": "/static/media/logo.003d3b95.png",
+    "static/media/outline-exit_to_app-24px.svg": "/static/media/outline-exit_to_app-24px.4f9e6771.svg",
+    "static/media/outline-search-24px.svg": "/static/media/outline-search-24px.63de706a.svg",
+    "static/media/outline-settings-24px.svg": "/static/media/outline-settings-24px.4d7dbcf6.svg",
+    "static/media/postimage.jpg": "/static/media/postimage.8588e84a.jpg",
+    "static/media/test.jpg": "/static/media/test.2d9b7f64.jpg",
+    "static/media/testcover.jpg": "/static/media/testcover.15a2aed1.jpg"
+  }
+}
